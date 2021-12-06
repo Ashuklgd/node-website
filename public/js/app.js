@@ -1,6 +1,6 @@
 
 
-console.log('client side javascript running')
+//console.log('client side javascript running')
 
 
 
