@@ -1,0 +1,10 @@
+geocode(process.argv[2], (error, {latitude, longitude, location }) =>{
+ 
+    forecast(latitude, longitude, (error, forecastdate)=>{
+        console.log('error :', error)
+        console.log('Data : ', forecastdate )
+    
+    }
+    )
+    
+})

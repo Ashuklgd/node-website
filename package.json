@@ -1,0 +1,24 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "nodemonConfig": {
+    "ext": "js,css,html,hbs,json"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "git": "^0.1.5"
+  }
+}
